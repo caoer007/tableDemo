@@ -14,3 +14,8 @@
 示例：输入 BnnDemo
 
 返回：
+create table bnnDemo(id2 int (11) NOT NULL COMMENT ' 编号2 ' ,
+id int (11) NOT NULL COMMENT ' 编号1 ' ,
+value char (200) COMMENT ' 值 ' ,
+PRIMARY KEY (id2,id) )
+ENGINE=InnoDB DEFAULT CHARSET=utf8;

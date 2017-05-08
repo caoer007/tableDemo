@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
  * @AUTHOR CF
  * @DATE Created on 2017/5/7 0:48.
  */
-@Target({ElementType.METHOD, ElementType.TYPE,ElementType.FIELD})
+@Target({ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Field {
      boolean isKey() default false;

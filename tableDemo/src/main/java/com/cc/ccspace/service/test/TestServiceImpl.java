@@ -39,8 +39,7 @@ public class TestServiceImpl extends CcBaseServiceImpl implements TestService {
         if(m.isEmpty()){
             return "";
         }
-        String tableSql=generateTableSql(beanName,m);
-        return tableSql;
+        return generateTableSql(beanName,m);
 
     }
 

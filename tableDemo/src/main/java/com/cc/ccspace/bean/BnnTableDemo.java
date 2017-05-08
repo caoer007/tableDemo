@@ -8,7 +8,7 @@ import com.cc.ccspace.common.annotation.Table;
  * @DATE Created on 2017/5/7 0:41.
  */
 
-@Table(name="bnnDemo")
+@Table(name="BnnDemo")
 public class BnnTableDemo {
     @Field(isKey = true,type=" int ",isNull = false,comment=" 编号1 ",len="(11)")
     private String id;

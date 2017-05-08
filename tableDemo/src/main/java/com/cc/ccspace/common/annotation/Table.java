@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
  * @AUTHOR CF
  * @DATE Created on 2017/5/7 0:46.
  */
-@Target({ElementType.METHOD, ElementType.TYPE})
+@Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Table {
      String name() default "";

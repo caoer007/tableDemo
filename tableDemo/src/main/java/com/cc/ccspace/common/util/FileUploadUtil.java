@@ -29,7 +29,7 @@ public class FileUploadUtil {
                 +File.separator+ file.getOriginalFilename();
         File f=new File(filePath);
         /* File f = new File(filename); //不会马上创建文件
-           FileOutputStream fos = new FileOutputStream(filename); //马上就创建文件了
+           FileOutputStream fos = new FileOutputStream(filename); //马上就创建文件
            */
         boolean makFlag=false;
         try {
