@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<setting name="cacheEnabled" value="true" />
+		<setting name="callSettersOnNulls" value="true" />
+	</settings>
+	<typeAliases>
+	</typeAliases>
+	
+	<!--
+	<typeHandlers>
+		<typeHandler handler="com.polin.omeal.dao.handler.NumberTypeHandler" javaType="String" jdbcType="NUMERIC"/>
+		<typeHandler handler="com.polin.omeal.dao.handler.IntegerTypeHandler" javaType="String" jdbcType="INTEGER"/>
+		<typeHandler handler="com.polin.omeal.dao.handler.TimestampTypeHandler" javaType="String" jdbcType="TIMESTAMP"/>
+	</typeHandlers>
+	-->
+	
+	<!--
+	<plugins>
+		<plugin interceptor="com.polin.omeal.dao.interceptor.page.PaginationInterceptor">
+		</plugin>
+	</plugins>
+	-->
+	
+	<mappers>
+	</mappers>
+</configuration>

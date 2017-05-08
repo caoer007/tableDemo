@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+    http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+    <context:property-placeholder location="classpath:config.properties" />
+
+    <!-- 海南数据源配置 开始-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+        <!-- 基本属性 url、user、password 对应的并不一定是properties中的同名属性 而是最终初始化时放入
+        com.alibaba.druid.pool.DruidDataSource这个类中的dataSource.password、dataSource.username中的实际值
+         不要被迷惑了
+        -->
+        <property name="connectionProperties" value="${dataSource.mysql.driver}"/>
+        <property name="url" value="${dataSource.cc.url}" />
+        <property name="username" value="${dataSource.cc.username}" />
+        <property name="password" value="${dataSource.cc.password}" />
+
+        <!-- 配置初始化大小、最小、最大 -->
+        <property name="initialSize" value="${dataSource.initialSize}" />
+        <property name="minIdle" value="${dataSource.minIdle}" />
+        <property name="maxActive" value="${dataSource.maxActive}" />
+
+        <!-- 配置获取连接等待超时的时间 -->
+        <property name="maxWait" value="${dataSource.maxWait}" />
+
+        <!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+        <property name="timeBetweenEvictionRunsMillis" value="${dataSource.timeBetweenEvictionRunsMillis}" />
+
+        <!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+        <property name="minEvictableIdleTimeMillis" value="${dataSource.minEvictableIdleTimeMillis}" />
+
+        <property name="validationQuery" value="${dataSource.validationQuery}" />
+        <property name="testWhileIdle" value="${dataSource.testWhileIdle}" />
+        <property name="testOnBorrow" value="${dataSource.testOnBorrow}" />
+        <property name="testOnReturn" value="${dataSource.testOnReturn}" />
+        <property name="removeAbandoned" value="true" />
+        <!-- 超时时间；单位为秒。180秒=3分钟 -->
+        <property name="removeAbandonedTimeout" value="180" />
+        <!-- 关闭abanded连接时输出错误日志，说明此链接超时异常 -->
+        <property name="logAbandoned" value="true"/>
+        <!-- 打开PSCache，并且指定每个连接上PSCache的大小 是否缓存preparedStatement，也就是PSCache。
+PSCache对支持游标的数据库性能提升巨大，比如说oracle。 -->
+        <!-- mysql 不支持 poolPreparedStatements-->
+        <property name="poolPreparedStatements" value="true" />
+        <property name="maxPoolPreparedStatementPerConnectionSize" value="100" />
+
+        <!-- 开启Druid的sql监控统计功能 -->
+        <property name="filters" value="${dataSource.filters}" />
+    </bean>
+    <!-- 海南数据源配置结束 -->
+
+    <!-- 配置 mybatis -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--采用动态数据源方案-->
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation"  value="classpath:mybatis-config.xml"/>
+        <property name="mapperLocations" value="classpath:com/cc/ccspace/mapper/**/*.xml"/>
+    </bean>
+    <!-- 配置 BaseDao -->
+    <bean id="baseDao" class="com.cc.ccspace.base.dao.BaseDaoImpl">
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>
+    <!-- Mybatis Dao -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.cc.ccspace.base.dao"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
+
+
+    <!-- 配置事务管理器 管理的数据源指向动态数据源即可 -->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+                <property name="dataSource" ref="dataSource" />
+    </bean>
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <!--<tx:attributes>
+            <tx:method name="batch*" propagation="REQUIRED" read-only="false" rollback-for="java.lang.Exception"/>
+        </tx:attributes>-->
+    </tx:advice>
+    <aop:config>
+        <aop:pointcut id="aop" expression="execution(* com.cc.ccspace.service..*.*(..))"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="aop"/>
+    </aop:config>
+    <!-- 相关配置结束 -->
+
+
+    <!--
+        name：与事务属性关联的方法名。通配符（*）可以用来指定一批关联到相同的事务属性的方法。 如：'get*'、'handle*'、'on*Event'等等。
+        propagation="REQUIRED"：事务传播行为
+        isolation			默认值 DEFAULT:事务隔离级别
+        timeout				默认值 	-1 	事务超时的时间（以秒为单位）
+        read-only			默认值 	false 	事务是否只读？
+        rollback-for		将被触发进行回滚的 Exception(s)；以逗号分开。 如：'com.foo.MyBusinessException,ServletException'
+        no-rollback-for 	不被触发进行回滚的 Exception(s)；以逗号分开。 如：'com.foo.MyBusinessException
+    -->
+    <!--     <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="batch*" propagation="REQUIRED" read-only="false" rollback-for="java.lang.Exception"/>
+        </tx:attributes>
+    </tx:advice> -->
+    <!--
+        把事务控制在Service层
+        第一个 * —— 通配 任意返回值类型
+        第二个 * —— 通配 包com.polin.omeal.service下的任意class
+        第三个 * —— 通配 包com.polin.omeal.service下的任意class的任意方法
+        第四个 .. —— 通配 方法可以有0个或多个参数
+
+        综上：包com.polin.omeal.service下的任意class的具有任意返回值类型、任意类、任意名称的方法、任意数目参数和<tx:advice/>有关的设置
+    -->
+    <!--  	<aop:config>
+           <aop:pointcut id="aop" expression="execution(* com.sitech.easklogin.easyask.service..*.*(..))"/>
+           <aop:advisor advice-ref="txAdvice" pointcut-ref="aop"/>
+        </aop:config>
+     -->
+
+</beans>
