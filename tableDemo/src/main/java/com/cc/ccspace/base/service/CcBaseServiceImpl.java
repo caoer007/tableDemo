@@ -11,7 +11,7 @@ import java.util.Set;
  * @AUTHOR CF
  * @DATE Created on 2017/5/7 2:06.
  */
-public class CcBaseServiceImpl {
+public class CcBaseServiceImpl implements CcBaseService{
     /**  * describe: 根据bean的字段信息以及其注解信息生成对应建表语句
      * @author CAI.F
      * @date:  日期:2017/5/7 时间:1:54
