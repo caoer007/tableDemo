@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>table create</title>
+    <link rel="stylesheet" type="text/css" href="../js/layui/css/layui.css">
+    <script src="../js/jquery-1.9.1.min.js"></script>
+    <script src="../js/layui/layui.js" merge="true"></script>
+    <script >
+        var layer;
+        layui.use(['layer', 'form'], function(){
+            layer=layui.layer
+                    ,form = layui.form();
+        });
+        $(function(){
+            $("#but").on("click",function () {
+                var table=$("#tableName").val();
+                var tab={
+                  tableName:table
+                };
+                var context=getContextPath();
+                $.ajax({
+                    url: context+'/test/bnnDemo.do',
+                    type: 'post',
+                    cache: false,
+                    data:tab,
+                    dataType:"json",
+                }).success(function(res) {
+//                   layer.msg(res.result)
+                    alert(res);
+                       layer.alert(res.result);
+                }).error(function(data) {
+                    alert(data.status);
+                });
+
+            });
+
+        });
+        function getContextPath(){
+            var pathName = document.location.pathname;
+            var index = pathName.substr(1).indexOf("/");
+            var result = pathName.substr(0,index+1);
+            return result;
+        }
+    </script>
+    <style>
+
+        body {
+            width: 35em;
+            margin: 0 auto;
+            /*font-family: Tahoma, Verdana, Arial, sans-serif;*/
+            background-image:url(../jpg/01.jpg);
+            z-index: 1000;
+            background-attachment:fixed;/*设置背景图片填充  fixed*/
+            background-size: 100%;
+            background-position:center;/*设置图片居中*/
+            /*color:#000000;*/
+            /*padding-top:30px;*/
+            height:auto;
+            font-size:medium;
+        }
+       #createTable{margin-top: 200px;
+           margin-left: 200px;
+           position: absolute;
+           height:100px;
+           width: auto;
+           /*border:1px #CCC solid;*/
+       }
+        #but{height: 40px;
+            background-color: #009688;
+        }
+    </style>
+</head>
+<body>
+
+
+
+<div id="createTable">
+    <span style="font-size:25px;font-weight: 500;bottom: 10px;position: relative;">
+        please input your table name </span><br>
+    <input type="text" id="tableName" style="height:30px;" placeholder="请输入表名">
+    <button class="layui-btn layui-btn-warm" id="but">create</button>
+</div>
+</body>
+</html>
