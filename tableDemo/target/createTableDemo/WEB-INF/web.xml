@@ -10,7 +10,7 @@
     <param-value>tableDemo</param-value>
   </context-param>
   <welcome-file-list>
-    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>tableDemo.html</welcome-file>
   </welcome-file-list>
   <context-param>
     <param-name>contextConfigLocation</param-name>

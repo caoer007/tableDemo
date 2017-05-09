@@ -15,8 +15,8 @@ import java.util.Map;
  */
 
 public abstract class BaseController {
-    @Resource(name = "baseDao")
-    protected BaseDao baseDao;
+//    @Resource(name = "baseDao")
+//    protected BaseDao baseDao;
     public static final String SUCCESS_CODE="0";
     public static final String FAIL_CODE="1";
     public static final String FAILED_DESC="create failed!";

@@ -5,7 +5,7 @@ public enum NameSpace {
      TestMapper("com.cc.ccspace.mapper.TestMapper");
     private final String value;
 
-    private NameSpace(String value) {
+     NameSpace(String value) {
         this.value = value;
     }
 
