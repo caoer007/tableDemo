@@ -1,25 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6bad84c-8b31-48fa-ae03-ab97af86b78f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/com/cc/ccspace/mapper/TestMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/test02/config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/test02/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/test02/spring-mybatis.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/upload.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/file/uploadFile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jpg/ggs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jpg/jiuli.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jpg/success.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jpg/yd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jpg/zu.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/addCollect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/cc/uploadfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/photos.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/mapper/TestMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" afterPath="" />
+    <list default="true" id="e6bad84c-8b31-48fa-ae03-ab97af86b78f" name="Default" comment="主要去除mvc中的冗余配置">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/base/controller/BaseController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/base/dao/BaseDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/base/dao/BaseDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/base/dao/NameSpace.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/base/service/CcBaseServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/bean/BnnTableDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/bean/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/annotation/Field.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/annotation/InterceptRequired.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/annotation/Table.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/constant/ClassLoadConstant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/property/PropertyHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/util/ClassLoadUtil$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/util/ClassLoadUtil$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/util/ClassLoadUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/util/DateUtils$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/util/DateUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/util/FileUploadUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/util/SpringContextUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/util/StringUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/util/UUIDGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/controller/test/TestController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/service/test/TestService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/service/test/TestServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/logback.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/META-INF/MANIFEST.MF" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/classes/com/cc/ccspace/base/controller/BaseController.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/classes/com/cc/ccspace/base/dao/BaseDao.class" afterPath="" />
@@ -43,15 +52,11 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/classes/com/cc/ccspace/common/util/StringUtil.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/classes/com/cc/ccspace/common/util/UUIDGenerator.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/classes/com/cc/ccspace/controller/test/TestController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/classes/com/cc/ccspace/mapper/TestMapper.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/classes/com/cc/ccspace/service/test/TestService.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/classes/com/cc/ccspace/service/test/TestServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/classes/config.properties" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/classes/context.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/classes/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/classes/mybatis-config.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/classes/spring-mvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/classes/spring-mybatis.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/lib/aspectjweaver-1.8.9.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/lib/cglib-nodep-3.2.4.jar" afterPath="" />
@@ -96,251 +101,20 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/lib/spring-web-4.3.7.RELEASE.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/lib/spring-webmvc-4.3.7.RELEASE.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/css/upload.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/error_page/cc_error.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/error_page/cc_error404.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/error_page/cc_error500.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/file/uploadFile.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/index.jsp" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/jpg/01.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/jpg/02.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/jpg/404.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/jpg/500.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/jpg/error.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/jpg/ggs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/jpg/jiuli.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/jpg/success.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/jpg/yd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/jpg/zu.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/addCollect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/cc/uploadfile.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/jquery-1.9.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/css/layui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/css/mobile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/css/modules/code.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/css/modules/laydate/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/css/modules/laydate/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/css/modules/layer/default/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/css/modules/layer/default/loading-2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/css/modules/layer/layer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/font/iconfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/font/iconfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/font/iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/font/iconfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/10.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/11.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/12.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/13.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/14.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/15.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/16.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/17.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/18.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/19.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/20.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/21.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/22.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/23.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/24.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/25.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/26.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/27.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/28.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/29.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/3.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/30.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/31.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/32.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/33.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/34.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/35.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/36.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/37.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/38.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/39.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/4.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/40.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/41.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/42.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/43.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/44.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/45.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/46.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/47.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/48.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/49.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/5.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/50.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/51.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/52.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/53.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/54.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/55.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/56.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/57.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/58.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/59.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/6.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/60.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/61.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/62.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/63.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/64.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/65.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/66.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/67.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/68.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/69.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/7.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/70.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/71.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/8.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/images/face/9.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/lay/dest/layui.all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/lay/lib/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/lay/modules/code.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/lay/modules/element.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/lay/modules/flow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/lay/modules/form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/lay/modules/laydate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/lay/modules/layedit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/lay/modules/layer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/lay/modules/laypage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/lay/modules/laytpl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/lay/modules/tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/lay/modules/upload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/lay/modules/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/layui/layui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/js/photos.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/createTableDemo/table/tableDemo.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/base/controller/BaseController.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/ccspace/base/controller/BaseController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/base/service/CcBaseServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/ccspace/base/service/CcBaseServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/util/ClassLoadUtil$1.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/util/ClassLoadUtil$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/util/ClassLoadUtil$2.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/util/ClassLoadUtil$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/util/ClassLoadUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/ccspace/common/util/ClassLoadUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/cc/ccspace/controller/test/TestController.class" afterPath="$PROJECT_DIR$/target/classes/com/cc/ccspace/controller/test/TestController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cc/ccspace/base/controller/BaseController.java" afterPath="$PROJECT_DIR$/src/main/java/com/cc/ccspace/base/controller/BaseController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cc/ccspace/base/dao/NameSpace.java" afterPath="$PROJECT_DIR$/src/main/java/com/cc/ccspace/base/dao/NameSpace.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cc/ccspace/service/test/TestServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/cc/ccspace/service/test/TestServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/context.xml" afterPath="$PROJECT_DIR$/src/main/resources/context.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tableDemo.iml" afterPath="$PROJECT_DIR$/tableDemo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/context.xml" afterPath="$PROJECT_DIR$/target/classes/context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/test02/context.xml" afterPath="$PROJECT_DIR$/src/main/resources/context.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/test02/logback.xml" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/test02/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/css/layui.css" afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/layui.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/css/mobile.css" afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/mobile.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/css/modules/code.css" afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/code.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/css/modules/laydate/icon.png" afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/laydate/icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/css/modules/laydate/laydate.css" afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/laydate/laydate.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/css/modules/layer/default/icon-ext.png" afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon-ext.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/css/modules/layer/default/icon.png" afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/css/modules/layer/default/loading-0.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-0.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/css/modules/layer/default/loading-1.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-1.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/css/modules/layer/default/loading-2.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-2.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/css/modules/layer/layer.css" afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/layer.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/font/iconfont.eot" afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/font/iconfont.svg" afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/font/iconfont.ttf" afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/font/iconfont.woff" afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/0.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/0.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/1.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/1.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/10.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/10.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/11.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/11.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/12.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/12.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/13.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/13.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/14.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/14.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/15.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/15.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/16.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/16.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/17.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/17.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/18.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/18.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/19.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/19.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/2.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/2.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/20.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/20.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/21.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/21.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/22.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/22.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/23.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/23.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/24.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/24.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/25.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/25.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/26.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/26.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/27.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/27.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/28.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/28.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/29.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/29.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/3.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/3.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/30.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/30.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/31.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/31.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/32.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/32.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/33.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/33.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/34.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/34.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/35.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/35.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/36.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/36.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/37.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/37.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/38.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/38.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/39.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/39.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/4.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/4.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/40.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/40.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/41.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/41.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/42.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/42.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/43.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/43.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/44.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/44.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/45.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/45.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/46.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/46.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/47.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/47.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/48.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/48.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/49.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/49.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/5.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/5.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/50.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/50.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/51.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/51.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/52.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/52.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/53.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/53.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/54.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/54.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/55.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/55.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/56.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/56.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/57.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/57.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/58.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/58.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/59.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/59.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/6.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/6.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/60.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/60.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/61.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/61.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/62.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/62.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/63.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/63.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/64.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/64.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/65.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/65.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/66.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/66.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/67.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/67.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/68.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/68.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/69.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/69.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/7.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/7.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/70.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/70.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/71.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/71.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/8.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/8.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/images/face/9.gif" afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/9.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/lay/dest/layui.all.js" afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/dest/layui.all.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/lay/lib/jquery.js" afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/lib/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/lay/modules/code.js" afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/code.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/lay/modules/element.js" afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/element.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/lay/modules/flow.js" afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/flow.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/lay/modules/form.js" afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/form.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/lay/modules/laydate.js" afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laydate.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/lay/modules/layedit.js" afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layedit.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/lay/modules/layer.js" afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/lay/modules/laypage.js" afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laypage.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/lay/modules/laytpl.js" afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laytpl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/lay/modules/tree.js" afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/tree.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/lay/modules/upload.js" afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/upload.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/lay/modules/util.js" afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/util.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/layui/layui.js" afterPath="$PROJECT_DIR$/src/main/webapp/layui/layui.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/table/tableDemo.html" afterPath="$PROJECT_DIR$/src/main/webapp/tableDemo.html" />
     </list>
     <ignored path="tableDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -363,11 +137,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/controller/test/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/base/controller/BaseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/service/test/TestServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/service/test/TestService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CcBaseServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/base/service/CcBaseServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-746">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+            <state relative-caret-position="253">
+              <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -390,7 +226,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/error_page/cc_error404.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/ccspace/service/test/TestService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cc/ccspace/service/test/TestServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/ccspace/common/util/FileUploadUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/ccspace/bean/BnnTableDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/ccspace/common/annotation/Field.java" />
@@ -402,15 +237,16 @@
         <option value="$PROJECT_DIR$/src/main/test02/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/ccspace/controller/test/TestController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/ccspace/base/controller/BaseController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cc/ccspace/base/dao/NameSpace.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/file/uploadFile.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/main/webapp/tableDemo.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cc/ccspace/service/test/TestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/context.xml" />
       </list>
     </option>
   </component>
@@ -447,8 +283,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="200" />
-    <option name="y" value="76" />
+    <option name="x" value="93" />
+    <option name="y" value="57" />
     <option name="width" value="1431" />
     <option name="height" value="978" />
   </component>
@@ -495,11 +331,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tableDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tableDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tableDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tableDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -796,7 +672,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="200" y="76" width="1431" height="978" extended-state="0" />
+    <frame x="93" y="57" width="1431" height="978" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -903,12 +779,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/service/test/TestServiceImpl.java</url>
-          <line>22</line>
+          <line>24</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -945,7 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,7 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,18 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
-          <folding>
-            <element signature="e#2918#2919#0" expanded="false" />
-            <element signature="e#2963#2964#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/service/test/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1009,7 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="145" column="12" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="31" column="75" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,7 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1037,19 +896,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/bean/BnnTableDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/common/annotation/InterceptRequired.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1061,14 +911,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/table/tableDemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/table/tableDemo.html" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/common/util/ClassLoadUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -1098,47 +941,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/spring-mvc.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestMapping.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
           <caret line="441" column="13" selection-start-line="441" selection-start-column="13" selection-end-line="441" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jpg/zu.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jpg/success.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jpg/jiuli.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jpg/ggs.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jpg/yd.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jpg/zu.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jpg/success.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jpg/jiuli.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jpg/ggs.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jpg/yd.jpg" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jpg/01.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1149,19 +964,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/base/dao/BaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,53 +976,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4180">
           <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2368">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/base/dao/NameSpace.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/service/test/TestServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-69">
           <caret line="267" column="17" selection-start-line="267" selection-start-column="17" selection-end-line="267" selection-end-column="17" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
@@ -1226,30 +1006,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/upload.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-499">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/file/uploadFile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1092">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/cc/uploadfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/upload.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/file/uploadFile.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/cc/uploadfile.js" />
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1262,46 +1021,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/bean/BnnTableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/controller/test/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/base/service/CcBaseServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/base/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="254">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        <state relative-caret-position="253">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/base/service/CcBaseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-746">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/service/test/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/service/test/TestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/base/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cc/ccspace/controller/test/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding />
         </state>
       </provider>

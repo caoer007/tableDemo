@@ -5,6 +5,7 @@ import com.cc.ccspace.common.annotation.Table;
 import com.cc.ccspace.common.constant.ClassLoadConstant;
 import com.cc.ccspace.common.util.ClassLoadUtil;
 import org.apache.commons.collections.iterators.EntrySetMapIterator;
+import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 import java.lang.reflect.Field;
@@ -17,6 +18,7 @@ import java.util.Set;
  * @AUTHOR CF
  * @DATE Created on 2017/5/7 0:37.
  */
+@Service
 public class TestServiceImpl extends CcBaseServiceImpl implements TestService {
     @Override
     public String createTableSql(String beanName) {
